@@ -26,8 +26,7 @@ function checkBirthDateIsLucky(){
     border: 1px solid #7C83FD;
     text-align: center;
     margin: auto;
-    margin-left: 12%;
-    margin-top: 2%;
+    margin-top: 10px;
     background: linear-gradient(to right bottom,#88FFF7,#7DEDFF, #96BAFF,#7C83FD);`;
 }
 function calculateSum(dob){
