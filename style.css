@@ -7,18 +7,20 @@ body{
 h1{
     background: linear-gradient(to right bottom,#BEAEE2,#FFBCBC, #B5EAEA,#EDF6E5 ,#FE9898);
     text-align: center;
-    width: 50%;
     margin: auto;
 }
 .container{
-    width: 50%;
+    width: 60%;
     margin: auto;
-    margin-left: 28%;
     padding: 30px;
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 input,label{
     display: block;
+    margin-top: 12px;
 }
 input{
     margin-bottom: 0.5rem;
@@ -26,10 +28,8 @@ input{
     height: 25px;
 }
 #check-number{
-    display: block;
-    margin-top: 5rem;
-    margin: auto;
-    margin-left: 34%;
+    margin-top: 0.7rem;
+    
     height: 35px;
     background-color: #FE9898;
 }
@@ -44,7 +44,6 @@ input{
     border: 1px solid #7C83FD;
     text-align: center;
     margin: auto;
-    margin-left: 12%;
-    margin-top: 2%;
+    margin-top: 10px;
     background: linear-gradient(to right bottom,#88FFF7,#7DEDFF, #96BAFF,#7C83FD);
 } */
