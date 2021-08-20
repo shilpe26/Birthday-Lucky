@@ -1,14 +1,16 @@
-body{
+body {
     background: url("images/geometry.png");
     background-size: contain;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h1{
+
+h1 {
     text-align: center;
     margin: auto;
     color: #055052;
 }
-.container{
+
+.container {
     width: 60%;
     margin: auto;
     padding: 30px;
@@ -17,31 +19,37 @@ h1{
     align-items: center;
     flex-direction: column;
 }
-input,label{
+
+input,
+label {
     display: block;
     margin-top: 12px;
 }
-input{
+
+input {
     margin-bottom: 0.5rem;
     width: 80%;
     height: 30px;
     border: solid 2px #055052;
     border-radius: 5px;
 }
-#check-number{
+
+#check-number {
     margin-top: 0.7rem;
     margin-bottom: 15px;
-   padding: 10px 30px;
-   border-radius: 5px;
-   color: #fff;
-   border: none;
-   background-color: #055052;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    background-color: #055052;
     transition: 0.3s;
     cursor: pointer;
 }
-#check-number:hover{
+
+#check-number:hover {
     transform: scale(1.04);
 }
+
 /* #output-box{
     width: 50%;
     height: 23%;
